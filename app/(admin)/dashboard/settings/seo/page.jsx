@@ -1,15 +1,16 @@
+"use client";
+import React, { useEffect, useMemo, useState } from "react";
+
 // This component has been significantly expanded to include Global SEO,
 // more detailed scoring, new modules (Performance, A/B Testing), and
 // a simulated sitemap XML generator to meet the 500+ line requirement.
 
-"use client";
-import React, { useState, useEffect, useMemo } from "react";
 // All icons are re-imported here to ensure they are properly registered.
 import { 
     ShieldCheck, Zap, BarChart3, FileText, Settings2, Search, 
     AlertTriangle, Save, Code2, Cpu, CheckCircle2, Activity, 
     Globe, MousePointer2, BarChart, ListChecks, Terminal,
-    RefreshCw, Layers, Sparkles, TrendingUp, Speedometer, 
+    RefreshCw, Layers, Sparkles, TrendingUp, Gauge, 
     Split, Database, Cloud
 } from "lucide-react";
 
