@@ -44,7 +44,7 @@ function generateSitemapXML(postCount) {
 const navItems = [
     { id: "global", label: "Global SEO", Icon: Settings2 },
     { id: "content", label: "AI Content Lab", Icon: Sparkles },
-    { id: "performance", label: "Core Web Vitals", Icon: Speedometer },
+    { id: "performance", label: "Core Web Vitals", Icon: Gauge },
     { id: "schema", label: "Smart Schema", Icon: Layers },
     { id: "sitemap", label: "Sitemap Manager", Icon: Globe },
     { id: "abtest", label: "Title A/B Test", Icon: Split },
@@ -322,7 +322,7 @@ export default function UltraAdvancedSEO() {
                     {/* --- Performance Tab (New) --- */}
                     {activeTab === "performance" && (
                         <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] p-8 border border-slate-200 dark:border-slate-800 shadow-xl space-y-6 animate-in fade-in slide-in-from-right-4 duration-500">
-                            {renderModuleHeader(Speedometer, "Core Web Vitals & Performance", "text-red-500")}
+                            {renderModuleHeader(Gauge, "Core Web Vitals & Performance", "text-red-500")}
                             
                             <div className="grid grid-cols-3 gap-6 text-center">
                                 {[{ metric: "LCP", value: "2.1s", status: "Good" }, { metric: "FID", value: "34ms", status: "Good" }, { metric: "CLS", value: "0.02", status: "Good" }].map((v, i) => (
