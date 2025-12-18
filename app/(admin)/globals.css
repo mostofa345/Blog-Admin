@@ -1,0 +1,7 @@
+/* app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* এখানে আপনার কাস্টম গ্লোবাল স্টাইল যোগ করতে পারেন */
