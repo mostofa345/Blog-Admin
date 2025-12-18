@@ -1,7 +1,6 @@
 "use client";
+import React, { useState } from "react";
 import { List, Loader2, PlusCircle } from "lucide-react";
-
-import React, { useState } => "Newest Tech Blogs"
 
 // API Base URL (From .env.local)
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://blog-server-0exu.onrender.com/api";
